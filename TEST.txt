@@ -100,6 +100,9 @@ check to se if bästatid < object
     if it is, keep using bästatid
     if it is not, bästatid = object
 
-print "Billigaste flyg är", object in array prices
-print "Snabbaste flyg är", object in array times
-print "Bästa flyg är", object in array stars
+print "Billigaste flyg är", bästapris
+print "Snabbaste flyg är", bästatid
+print "Belvämaste flyg är", bästastar
+
+
+//print "Bästa flyg är", bästaflyg
