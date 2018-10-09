@@ -1,0 +1,15 @@
+biljetter = 20
+musen = 3
+huset = 2
+kvasten = 4
+åktur1 = 0
+åktur2 = 0
+åktur3 = 0
+
+åktur1 = biljetter/musen
+åktur2 = biljetter/huset
+åktur3 = biljetter/kvasten
+
+print "du kan åka musen " + åktur1 + " gånger"
+print "du kan gå i lustiga huset " + åktur2 + " gånger
+print "du kan åka flygande kvasten " + åktur3 + " gånger"
