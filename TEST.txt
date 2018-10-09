@@ -52,14 +52,43 @@ save 3423 to prisRyanaire
 save 9500 to prisGröntflyg
 save 8560 to prisFlygFort
 
+add above to array prices
+
 save 4 to starSAS
 save 1 to starRyanaire
 save 3 to starGröntflyg
 save 3 to starFlygFort
+
+add above to array stars
 
 save 12 to tidSAS
 save 14 to tidRyanaire
 save 12 to tidGröntflyg
 save 8 to tidFlygFort
 
-check to se if prisSAS >
+add above to array times
+
+bästapris = prisSAS
+
+for each object in prises
+check to se if bästapris < object
+    if it is, keep using bästapris
+    if it is not, bästapris = object
+
+bästastar = starSAS
+
+for each object in stars
+check to se if bästastar < object
+    if it is, keep using bästastar
+    if it is not, bästastar = object
+
+bästatid = tidSAS
+
+for each object in times
+check to se if bästatid < object
+    if it is, keep using bästatid
+    if it is not, bästatid = object
+
+print "Billigaste flyg är", object in array prices
+print "Snabbaste flyg är", object in array times
+print "Bästa flyg är", object in array stars
