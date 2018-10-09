@@ -1,3 +1,5 @@
+Uppgift 3
+
 biljetter = 20
 musen = 3
 huset = 2
@@ -14,6 +16,9 @@ print "du kan åka musen " + åktur1 + " gånger"
 print "du kan gå i lustiga huset " + åktur2 + " gånger
 print "du kan åka flygande kvasten " + åktur3 + " gånger"
 
+
+Uppgift 1
+
 save 1250 to num1
 save 3 to num2
 save 8 to num3
@@ -28,6 +33,9 @@ product2 = kvot * num2
 sum = product + product1 + product2
 
 print "Eleven får", sum "kr"
+
+
+Uppgift 2
 
 save 13,95 to num1
 save 30 to num2
@@ -46,6 +54,9 @@ check to se if kvot1 == heltal
 sum = kvot + kvot1
 
 print "Han kan köpa", sum, "burkar"
+
+
+Uppgift 4
 
 save 12500 to prisSAS
 save 3423 to prisRyanaire
